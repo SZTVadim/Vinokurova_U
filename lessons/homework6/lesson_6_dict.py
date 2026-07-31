@@ -24,14 +24,9 @@ student2 = {"имя": "Мария", "возраст": 21, "город": "Сан�
 student1.update(student2)
 
 print(student1)
-
-student3 = student1.copy()
-
-print(student1)
 print(student2)
-print(student3)
 
-# или такой вариант для задания со student3
+# такой вариант для задания со student3
 
 student_1 = {"имя": "Иван", "возраст": 20, "курс": 2}
 student_2 = {"имя": "Мария", "возраст": 21, "город": "Санкт-Петербург"}
