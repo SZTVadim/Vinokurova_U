@@ -29,6 +29,6 @@ numbers.sort()
 
 print(numbers)
 
-numbers.sort(reverse=True)
+numbers.reverse()
 
 print(numbers)

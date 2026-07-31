@@ -1,13 +1,13 @@
 # Task 1
-strr = type("Привет")
-intt = type(42)
-fltt = type(3.14)
-listt = type([1, 2, 3])
+strr = "Привет"
+intt = 42
+fltt = 3.14
+listt = [1, 2, 3]
 
-print(strr)
-print(intt)
-print(fltt)
-print(listt)
+print(type(strr))
+print(type(intt))
+print(type(fltt))
+print(type(listt))
 
 # Task 2
 text = "python PROGRAMMING"
@@ -50,10 +50,10 @@ print("Hello".isalpha())
 print("   ".isspace())
 
 # Task 8
-srez = "Pytonh very good"
+srez = "Python very good"
 
 print(srez[0:3])
-print(srez[13:])
+print(srez[-3:])
 print(srez[0::2])
 print(srez[::-1])
 
