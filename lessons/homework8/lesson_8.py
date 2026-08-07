@@ -21,6 +21,6 @@ print(users_len_password)
 # ЗАДАНИЕ 3
 
 scores = (10, 7, 0, 9, 8, 5)
-scores_x_10 = tuple(round(element * 1.1, 1) for element in scores)
+scores_x_10 = tuple(element * 1.1 for element in scores)
 
 print(scores_x_10)
