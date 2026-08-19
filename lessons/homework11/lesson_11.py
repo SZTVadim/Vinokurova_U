@@ -2,10 +2,10 @@
 
 
 def calculate_total(price, tax_percent):
-    if tax_percent > 0.20 or price < 0:
+    if tax_percent > 20 or price < 0:
         return "Введите значение цены не ниже 0 или ставку налога не более 20%"
     else:
-        total = price + (price * tax_percent)
+        total = price + (price * tax_percent / 100)
         return total
 
 
