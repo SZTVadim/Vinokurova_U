@@ -7,3 +7,4 @@ def test_user_flow(setup_user):
 
 def test_puzzle(app, logger):
     print("TEST")
+
