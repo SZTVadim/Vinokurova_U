@@ -24,7 +24,8 @@ def test_timer():
 
 @pytest.fixture
 def setup_user(test_user, delete_user, test_timer):
-    yield
+    user = test_user
+    yield user
 
 
 
