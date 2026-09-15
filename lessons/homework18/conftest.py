@@ -28,7 +28,6 @@ def setup_user(test_user, delete_user, test_timer):
     yield user
 
 
-
 @pytest.fixture
 def base():
     print("SETUP base")
