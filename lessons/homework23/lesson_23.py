@@ -1,5 +1,6 @@
 from playwright.sync_api import Page, expect
 
+
 def test_form(page: Page):
     page.goto("https://www.qa-practice.com/forms/practice-form", wait_until="domcontentloaded")
 
