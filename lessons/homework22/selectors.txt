@@ -2,7 +2,7 @@ upgrade = //*[contains(@href, 'upgrade-to-advanced')]
 user = .oxd-userdropdown-tab
 search = [placeholder="Search"]
 dashboard = [href="/web/index.php/dashboard/index"]
-icon_button = [class="oxd-icon-button oxd-main-menu-button"]
+icon_button = .oxd-main-menu-button
 tab_actions = //*[contains(@class,"bi-list-check")]/../../../..
-options_tab = [class~="bi-gear-fill"]
-engineering = .oxd-chart-legend span[title="Engineering"]
+options_tab = .bi-gear-fill
+engineering = [title="Engineering"]
