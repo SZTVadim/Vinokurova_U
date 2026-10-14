@@ -1,0 +1,8 @@
+upgrade = //*[contains(@href, 'upgrade-to-advanced')]
+user = .oxd-userdropdown-tab
+search = [placeholder="Search"]
+dashboard = [href="/web/index.php/dashboard/index"]
+icon_button = .oxd-main-menu-button
+tab_actions = //*[contains(@class,"bi-list-check")]/../../../..
+options_tab = .bi-gear-fill
+engineering = [title="Engineering"]
